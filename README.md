@@ -2,41 +2,44 @@
 Rahama Scents – Luxury Fragrance E-Commerce Platform
 Rahama Scents is a full-featured e-commerce web application built for selling luxury handcrafted fragrances. It includes three integrated role-based dashboards: Admin, Customer, and Delivery Staff, providing a complete end-to-end solution for online fragrance sales, inventory management, order fulfillment, and real-time analytics.
 Tagline: Luxury that soothes the soul
-Table of Contents
+## Table of Contents
 •	Features
 •	Project Structure
 •	Technology Stack
 •	Database Schema
 •	Installation & Setup
 •	Roles & Dashboards
-Features
-Customer Features
+
+## Features
+### Customer Features
 •	Browse products with images, prices, and descriptions
 •	Add to cart with real-time quantity updates
 •	Secure checkout with delivery details (name, phone, address)
 •	Multiple payment options (Card, Mobile Money, Cash on Delivery)
 •	View order history and status tracking
 •	User profile management
-Admin Dashboard
+
+### Admin Dashboard
 •	Add, edit, delete products (with image upload)
 •	Real-time sales analytics (monthly revenue, top products, category breakdown)
 •	Inventory management with low-stock alerts
 •	Full order management (view, update status, export reports)
 •	Customer overview and message inbox
 •	Approve/reject delivery staff registrations
-Delivery Dashboard
+### Delivery Dashboard
 •	Real-time notifications for new orders (simulated via email/webhook)
 •	View pending deliveries with customer address and contact
 •	Accept orders and mark as delivered
 •	Personal profile with vehicle type and photo
-General Features
+### General Features
 •	Role-based authentication and access control
 •	Responsive design with modern UI
 •	Session-based shopping cart
 •	Secure password hashing
 •	Contact form with message storage
-Project Structure
-text
+
+## Project Structure
+### text
 rahama_scents/
 •	admin.php                   # Main Admin Dashboard
 •	analytics.php               # Sales charts & stats
@@ -62,7 +65,8 @@ rahama_scents/
 •	 RahamaScents.css / .js      # Main site styling
 •	uploads/                    # Product & delivery image
 •	database/                   # SQL schema (rahama_scents.sql)
-Technology Stack
+
+### Technology Stack
 •	Frontend: HTML5, CSS3, JavaScript, Font Awesome
 •	Backend: PHP 7+
 •	Database: MySQL
@@ -93,7 +97,7 @@ ADMIN 	login.php	admin.php	Manage products, view analytics, orders
 DELIVERY Staff	delivery_login.php	delivery_dashboard.php	Accept & complete deliveries
 
 			
-Future Enhancements
+## Future Enhancements
 •	Integrate real payment gateways (Paystack, Flutterwave)
 •	Email/SMS notifications using PHPMailer
 •	Product search & filtering
