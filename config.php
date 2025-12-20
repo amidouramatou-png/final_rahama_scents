@@ -2,8 +2,11 @@
 
 
 // Database connection
-$conn = new mysqli("localhost", "root", "", "rahama_scents");
-
+$host = 'sql207.infinityfree.com';
+$dbname = 'if0_40722542_rahama_scents';
+$username = 'if0_40722542';
+$password = 'qpmME4f74uIj';
+$conn = new mysqli($host, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

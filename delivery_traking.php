@@ -7,10 +7,10 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     exit();
 }
 
-$host = 'localhost';
-$dbname = 'rahama_scents';
-$username = 'root';
-$password = '';
+$host = 'sql207.infinityfree.com';
+$dbname = 'if0_40722542_rahama_scents';
+$username = 'if0_40722542';
+$password = 'qpmME4f74uIj';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
