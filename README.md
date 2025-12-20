@@ -1,4 +1,5 @@
 # final_rahama_scents
+To get access click on this link https://ramatou.infinityfreeapp.com/final_rahama_scents/RahamaScents.php 
 Rahama Scents – Luxury Fragrance E-Commerce Platform
 Rahama Scents is a full-featured e-commerce web application built for selling luxury handcrafted fragrances. It includes three integrated role-based dashboards: Admin, Customer, and Delivery Staff, providing a complete end-to-end solution for online fragrance sales, inventory management, order fulfillment, and real-time analytics.
 Tagline: Luxury that soothes the soul
